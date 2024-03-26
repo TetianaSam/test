@@ -31,6 +31,7 @@ file.close()
 file = open("first_file.me")
 data = file.read()
 file.close()
+
 print(data)
 
 file = open("first_file.me","a")
@@ -44,3 +45,6 @@ data2 = file.readlines()
 file.close()
 print(data)
 print(data2)
+
+
+print ("hello")
