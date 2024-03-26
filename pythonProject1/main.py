@@ -47,4 +47,7 @@ print(data)
 print(data2)
 
 
-print ("hello")
+file = open("first_file.txt", "r")
+data2 = file.readlines() # udela seznam
+file.close()
+print(data2)
